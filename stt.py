@@ -45,11 +45,11 @@ if (file_upload !=None):
     st.write(result_text)
     st.write(file_upload)
 
-st.write("マイクでの音声認識はこちらのボタンから")
+#st.write("マイクでの音声認識はこちらのボタンから")
 
-if st.button("音声認識開始"):
-    state = st.empty()
-    state.write("音声認識中")
-    result_text = mic_speech_to_text(set_language)
-    st.write("音声認識結果")
-    st.write(result_text)
+#if st.button("音声認識開始"):
+    #state = st.empty()
+    #state.write("音声認識中")
+    #result_text = mic_speech_to_text(set_language)
+    #st.write("音声認識結果")
+    #st.write(result_text)
